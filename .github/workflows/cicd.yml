@@ -60,9 +60,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Install Maven
-  run: |
-    sudo apt update
-    sudo apt install maven -y
+      run: |
+        sudo apt update
+        sudo apt install maven -y
     - name: Unit Test Cases
       run: mvn test
 

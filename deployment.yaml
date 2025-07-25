@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jarapp-deployment
+  labels:
+    app: jarapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jarapp
+  template:
+    metadata:
+      labels:
+        app: jarapp
+    spec:
+      containers:
+      - name: jarapp
+        image: 593793049417.dkr.ecr.us-east-1.amazonaws.com/bankapplication:latest
+        ports:
+        - containerPort: 8080

@@ -131,3 +131,4 @@ jobs:
         push: true
         tags: 593793049417.dkr.ecr.us-east-1.amazonaws.com/githubactions/demo:latest
         file: ./Dockerfile
+        

@@ -55,7 +55,8 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: githubactions/demo:latest
+        image: 593793049417.dkr.ecr.us-east-1.amazonaws.com/githubactions/demo:latest
+
         ports:
         - containerPort: 8080
         env:

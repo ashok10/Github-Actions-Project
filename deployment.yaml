@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: jarapp
-        image: 593793049417.dkr.ecr.us-east-1.amazonaws.com/bankapplication:latest
+        image: 593793049417.dkr.ecr.us-east-1.amazonaws.com/githubactions/demon:latest
         ports:
         - containerPort: 8080
